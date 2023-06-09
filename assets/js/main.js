@@ -26,3 +26,23 @@ function copyPassword() {
   passwordBox.select();
   document.execCommand('copy');
 }
+
+/* javascript code to make the preloader in the button
+const button = document.querySelector('.container button');
+
+function createPassword() {
+  // Add 'loading' class to the button
+  button.classList.add('loading');
+
+  // Simulate the password generation process
+  setTimeout(() => {
+    // Generate the password
+
+    // Remove 'loading' class from the button
+    button.classList.remove('loading');
+  }, 2000);
+}
+
+button.addEventListener('click', createPassword);
+
+*/
