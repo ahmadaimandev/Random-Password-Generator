@@ -42,7 +42,7 @@ body {
 
 .container h1 {
     font-weight: 500;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .container h1 span {
@@ -59,7 +59,8 @@ body {
 .display input {
     border: 0;
     outline: 0;
-    font-size: 24px;
+    font-size: 20px;
+    padding: 0.5rem;
 }
 
 .container button {
@@ -86,37 +87,6 @@ body {
     color: #ffffff;
 }
 
-.container button::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 20px;
-    height: 20px;
-    border: 3px solid rgba(255, 255, 255, 0.7);
-    border-top-color: #ffffff;
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
-
-@keyframes spin {
-    0% {
-        transform: translate(-50%, -50%) rotate(0deg);
-    }
-    100% {
-        transform: translate(-50%, -50%) rotate(360deg);
-    }
-}
-
-.container button.loading::after {
-    opacity: 1;
-    visibility: visible;
-}
-
 @media (max-width: 768px) {
     .container {
         margin: 10%;
@@ -131,7 +101,7 @@ body {
     }
 
     .display input {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .container button {
@@ -154,7 +124,7 @@ body {
     }
 
     .display input {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .container button {
