@@ -27,7 +27,10 @@ function copyPassword() {
   document.execCommand('copy');
 }
 
-/* javascript code to make the preloader in the button
+/* 
+
+javascript code to make the preloader in the button
+
 const button = document.querySelector('.container button');
 
 function createPassword() {
