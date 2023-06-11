@@ -1,7 +1,7 @@
 :root {
     --main-color: #002339;
     --secondary-color: #f7f70b;
-    --button-color: #968c00;
+    --button-color: #32b602;
 }
 
 * {
@@ -79,12 +79,14 @@ body {
     display: block;
     margin: 0 auto;
     position: relative;
+     transition: all .4s ease-in;
 }
 
 .container button:hover {
     /* Hover styles here */
-    background-color: #ffcc00;
+    background-color: #025f00;
     color: #ffffff;
+    transition: all .4s;
 }
 
 @media (max-width: 768px) {
